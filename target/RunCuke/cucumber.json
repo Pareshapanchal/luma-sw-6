@@ -1,0 +1,272 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4921917801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should Add Product SuccessFully To Shopping Cart",
+        "description": "",
+        "id": "gear-page-test;user-should-add-product-successfully-to-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 727300301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49836099,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "WomenSteps.i_am_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 546376200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I mouse hover on Gear Menu",
+            "match": {
+              "location": "GearSteps.iMouseHoverOnGearMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 859693401,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Bags",
+            "match": {
+              "location": "GearSteps.iClickOnBags()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 714997700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Product Name \"Overnight Duffle\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Overnight Duffle",
+                  "offset": 25
+                }
+              ],
+              "location": "GearSteps.iClickOnProductName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224915901,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I change Qty \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 14
+                }
+              ],
+              "location": "GearSteps.iChangeQty(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63471900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Addtocart button",
+            "match": {
+              "location": "GearSteps.iClickOnAddtocartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1481615400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify the text\"You added Overnight Duffle to your shopping cart.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You added Overnight Duffle to your shopping cart.",
+                  "offset": 18
+                }
+              ],
+              "location": "GearSteps.iVerifyTheText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3972201599,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on ShoppinCart Link",
+            "match": {
+              "location": "GearSteps.iClickOnShoppinCartLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2067661100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the product name \"Overnight Duffle\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Overnight Duffle",
+                  "offset": 27
+                }
+              ],
+              "location": "GearSteps.iVerifyTheProductName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76602400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify the Qty is \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 21
+                }
+              ],
+              "location": "GearSteps.iVerifyTheQtyIs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49243000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify the product price \"$135.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$135.00",
+                  "offset": 28
+                }
+              ],
+              "location": "GearSteps.iVerifyTheProductPrice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211630300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I change Qty to \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 17
+                }
+              ],
+              "location": "GearSteps.iChangeQtyTo(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89252799,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on \"Update Shopping Cart\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Update Shopping Cart",
+                  "offset": 12
+                }
+              ],
+              "location": "GearSteps.iClickOnButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2875731600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify the final product price \"$225.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$225.00",
+                  "offset": 34
+                }
+              ],
+              "location": "GearSteps.iVerifyTheFinalProductPrice(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Gear Page Test",
+    "description": "",
+    "id": "gear-page-test",
+    "keyword": "Feature",
+    "uri": "gear.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
